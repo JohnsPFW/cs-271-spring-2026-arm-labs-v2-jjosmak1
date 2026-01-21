@@ -50,7 +50,8 @@ _start:
     // TODO: Use MOV to load the value 25 into register X3
     // After this instruction, X3 should equal 25
     //
-    // YOUR CODE HERE:
+    // YOUR CODE HERE: MOV     X3, #25          // X3 = 25
+
 
 
     // -------------------------------------------------------------------------
@@ -59,7 +60,7 @@ _start:
     // TODO: Add X2 and X3, store the result in X4
     // After this instruction, X4 should equal 40 (because 15 + 25 = 40)
     //
-    // YOUR CODE HERE:
+    // YOUR CODE HERE:  ADD     X4, X2, X3       // X4 = 15 + 25 = 40
 
 
     // -------------------------------------------------------------------------
@@ -69,7 +70,7 @@ _start:
     // Hint: The syntax is SUB destination, source1, source2
     // After this instruction, X5 should equal 5 (because 10 - 5 = 5)
     //
-    // YOUR CODE HERE:
+    // YOUR CODE HERE:  SUB     X5, X0, X1       // X5 = 10 - 5 = 5
 
 
     // -------------------------------------------------------------------------
@@ -80,6 +81,8 @@ _start:
     // After your code, X6 MUST equal exactly 100 for the autograder to pass.
     //
     // YOUR CODE HERE:
+    MOV     X6, #80          // X6 = 80
+    ADD     X6, X6, #20      // X6 = 100
 
 
     // =========================================================================
